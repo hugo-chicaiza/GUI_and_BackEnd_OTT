@@ -1,0 +1,70 @@
+/* Login.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(3, 20, 71); /* Fondo negro */
+    color: white; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Fuente */
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    height: 70vh; /* Altura completa de la ventana */
+    text-align: center; /* Centrar texto */
+}
+
+.logo {
+    margin-bottom: 20px; /* Espacio entre la imagen y el formulario */
+}
+
+.form {
+    display: flex;
+    flex-direction: column; /* Colocar los campos uno debajo del otro */
+    width: 80%; /* Ancho del formulario */
+    max-width: 400px; /* Ancho máximo */
+}
+
+.input-group {
+    margin: 10px 0; /* Espacio entre los campos de entrada */
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%; /* Ancho completo */
+    background-color: #333333; /* Fondo de los campos de entrada */
+    color: white; /* Texto blanco */
+}
+
+button {
+    background-color: #e50914; /* Color del botón */
+    color: white; /* Texto blanco */
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+}
+
+button:hover {
+    background-color: #c40710; /* Color del botón al pasar el ratón */
+}
+
+.error-message {
+    color: red; /* Color del mensaje de error */
+    margin-top: 10px; /* Espacio superior para el mensaje de error */
+}
+
+/* Nueva clase para el botón de registro */
+.register-button {
+    margin-top: 20px; /* Ajusta este valor para más separación */
+}
+
+/* Nueva clase para el botón de volver a iniciar sesión */
+.cancel-button {
+    margin-top: 20px; /* Ajusta este valor para más separación */
+}

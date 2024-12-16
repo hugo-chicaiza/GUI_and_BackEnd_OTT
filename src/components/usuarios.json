@@ -1,0 +1,18 @@
+[
+    { "username": "user1", "password": "pass1", "isLoggedIn": true },
+    { "username": "user2", "password": "pass2", "isLoggedIn": true },
+    { "username": "user3", "password": "pass3", "isLoggedIn": true },
+    { "username": "user4", "password": "pass4", "isLoggedIn": true },
+    { "username": "user5", "password": "pass5", "isLoggedIn": true },
+    { "username": "user6", "password": "pass6", "isLoggedIn": true },
+    { "username": "user7", "password": "pass7", "isLoggedIn": true },
+    { "username": "user8", "password": "pass8", "isLoggedIn": true },
+    { "username": "user9", "password": "pass9", "isLoggedIn": true },
+    { "username": "user10", "password": "pass10", "isLoggedIn": true },
+    { "username": "user11", "password": "pass11", "isLoggedIn": true },
+    { "username": "user12", "password": "pass12", "isLoggedIn": true },
+    { "username": "user13", "password": "pass13", "isLoggedIn": true },
+    { "username": "user14", "password": "pass14", "isLoggedIn": true },
+    { "username": "user15", "password": "pass15", "isLoggedIn": true },
+    { "username": "Admin", "password": "1", "isLoggedIn": true }
+  ]

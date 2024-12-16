@@ -1,0 +1,17 @@
+/* App.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black; /* Fondo negro para toda la pantalla */
+    color: white; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Fuente */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    height: 10vh; /* Altura completa de la ventana */
+}
